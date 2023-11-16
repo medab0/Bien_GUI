@@ -42,7 +42,7 @@ public class Main extends JFrame {
         SwingUtilities.invokeLater(() -> {
             Main app = new Main();
             app.setContentPane(app.jpanel);
-            app.setSize(600, 300);
+            app.setSize(500, 200);
             app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             app.setVisible(true);
             app.setTitle("Leap Year Checker");
